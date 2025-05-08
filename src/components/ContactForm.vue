@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const name = ref('m');
-const email = ref('r');
-const message = ref('h');
+const name = ref('');
+const email = ref('');
+const message = ref('');
 const isSending = ref(false);
 const messageSent = ref(false);
 const errorMessage = ref('');

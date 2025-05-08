@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 
+
 // Anda bisa menambahkan logika untuk menu responsif di sini
 </script>
 
@@ -9,7 +10,7 @@ import { RouterLink } from 'vue-router';
     <div class="logo">Portofolio Anda</div>
     <ul>
       <li><RouterLink to="/">Beranda</RouterLink></li>
-      <li><RouterLink to="/projects">Proyek</RouterLink></li>
+      <li><RouterLink to="/project">Proyek</RouterLink></li>
       <li><RouterLink to="/contact">Kontak</RouterLink></li>
       <li><a href="/cv.pdf" target="_blank">CV</a></li>
     </ul>
